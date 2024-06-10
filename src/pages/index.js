@@ -286,7 +286,7 @@ export default function Home() {
             </div>
 
             <div className="hidden py-36 w-full sm:block sm:relative md:py-42">
-              <div className="max-w-[500px] w-[25vw] aspect-square bg-no-repeat flex mx-auto items-center justify-center bg-[url('/shapes/4.svg')] sticky top-[92px]">
+              <div className="max-w-[500px] w-[25vw] aspect-square bg-no-repeat flex mx-auto items-center justify-center bg-[url('/shapes/4.svg')] sticky top-1/3">
                 <span className="text-slate-700 text-xs font-bold tracking-tight text-opacity-70">
                   no image
                 </span>

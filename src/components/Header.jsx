@@ -341,13 +341,13 @@ export default function Header() {
             </Link>
           </div>
 
-          <div className="z-20 p-1 text-white transition-colors bg-zinc-900 rounded-md xl:hidden hover:bg-gray-800 focus:bg-gray-800">
+          <div className="z-20 p-1 text-white transition-colors bg-zinc-900 rounded-md xl:hidden">
             <MenuBurger
               onToggle={() => setIsOpenMobile(_ => !_)}
               size={14}
               area={24}
               distance="lg"
-              className="focus:bg-zinc-800 hover:bg-zinc-800"
+              // className="focus:bg-zinc-800 hover:bg-zinc-800"
             />
           </div>
         </div>
@@ -373,14 +373,14 @@ export default function Header() {
           <div className="flex flex-col gap-2 pt-4">
             <Link
               href="/o-nas"
-              className="w-72 sm:w-96 hover:bg-zinc-200 hover:bg-opacity-50 py-2 rounded-md mx-auto text-lg sm:text-xl font-extrabold text-slate-800 text-center tracking-tight"
+              className="w-72 sm:w-96 hover:bg-zinc-200 hover:bg-opacity-50 py-2 rounded-md mx-auto text-lg sm:text-xl font-extrabold text-slate-800 text-center tracking-tight transition-colors"
             >
               O nas
             </Link>
             <Link
               href="/sklepy-internetowe"
               passHref
-              className="w-72 sm:w-96 hover:bg-zinc-200 hover:bg-opacity-50 py-2 rounded-md mx-auto text-lg sm:text-xl font-extrabold text-center tracking-tight"
+              className="w-72 sm:w-96 hover:bg-zinc-200 hover:bg-opacity-50 py-2 rounded-md mx-auto text-lg sm:text-xl font-extrabold text-center tracking-tight transition-colors"
             >
               <span className="bg-clip-text text-opacity-100 text-transparent bg-gradient-to-l from-orange-500 to-yellow-500">
                 Kompleksowe sklepy internetowe
@@ -388,25 +388,25 @@ export default function Header() {
             </Link>
             <Link
               href="/strony-internetowe"
-              className="w-72 sm:w-96 hover:bg-zinc-200 hover:bg-opacity-50 py-2 rounded-md mx-auto text-lg sm:text-xl font-extrabold text-slate-800 text-center tracking-tight"
+              className="w-72 sm:w-96 hover:bg-zinc-200 hover:bg-opacity-50 py-2 rounded-md mx-auto text-lg sm:text-xl font-extrabold text-slate-800 text-center tracking-tight transition-colors"
             >
               Strony internetowe
             </Link>
             <Link
               href="/dedykowane-systemy"
-              className="w-72 sm:w-96 hover:bg-zinc-200 hover:bg-opacity-50 py-2 rounded-md mx-auto text-lg sm:text-xl font-extrabold text-slate-800 text-center tracking-tight"
+              className="w-72 sm:w-96 hover:bg-zinc-200 hover:bg-opacity-50 py-2 rounded-md mx-auto text-lg sm:text-xl font-extrabold text-slate-800 text-center tracking-tight transition-colors"
             >
               Dedykowane systemy
             </Link>
             <Link
               href="/cennik"
-              className="w-72 sm:w-96 hover:bg-zinc-200 hover:bg-opacity-50 py-2 rounded-md mx-auto text-lg sm:text-xl font-extrabold text-slate-800 text-center tracking-tight"
+              className="w-72 sm:w-96 hover:bg-zinc-200 hover:bg-opacity-50 py-2 rounded-md mx-auto text-lg sm:text-xl font-extrabold text-slate-800 text-center tracking-tight transition-colors"
             >
               Cennik
             </Link>
             <Link
               href="/realizacje"
-              className="w-72 sm:w-96 hover:bg-zinc-200 hover:bg-opacity-50 py-2 rounded-md mx-auto text-lg sm:text-xl font-extrabold text-slate-800 text-center tracking-tight"
+              className="w-72 sm:w-96 hover:bg-zinc-200 hover:bg-opacity-50 py-2 rounded-md mx-auto text-lg sm:text-xl font-extrabold text-slate-800 text-center tracking-tight transition-colors"
             >
               Realizacje
             </Link>
