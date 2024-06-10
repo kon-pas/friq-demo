@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script src="gradient.js"></script>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #gradient-canvas {
+      /* --gradient-color-1: #a960ee;
+      --gradient-color-2: #ff333d;
+      --gradient-color-3: #90e0ff;
+      --gradient-color-4: #ffcb57; */
+      --gradient-color-1: #9cf482;
+      --gradient-color-2: #56F1F4;
+      --gradient-color-3: #ffef15;
+      --gradient-color-4: #fec963;
+    }
+  </style>
+  <body>
+    <canvas id="gradient-canvas" style="width: 100vw; height: 100vh"></canvas>
+    <script>
+      const gradient = new Gradient();
+      gradient.initGradient("#gradient-canvas");
+    </script>
+  </body>
+</html>
